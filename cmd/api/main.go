@@ -12,8 +12,8 @@ import (
 
 	// undescore (alias) is used to avoid go compiler complaining or erasing this
 	// library.
+	"github.com/GazizAuelbaev/greenlight/internal/data"
 	_ "github.com/lib/pq"
-	"github.com/shynggys9219/greenlight/internal/data"
 )
 
 const version = "1.0.0"
